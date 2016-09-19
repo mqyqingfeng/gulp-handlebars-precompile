@@ -1,0 +1,44 @@
+{
+  "name": "gulp-handlebars-precompile",
+  "version": "1.0.3",
+  "description": "提取html文件中的handerbars模板文件，预编译到指定目录,并且可以在html文件中建立script链接",
+  "license": "MIT",
+  "repository": {},
+  "author": "kevin",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "handerbars",
+    "precompile"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1",
+    "guid": "^0.0.12",
+    "bluebird": "^2.3.11",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-wrap": "^0.13.0",
+    "gulp-declare": "^0.3.0"
+  },
+  "homepage": "",
+  "_from": "gulp-handlebars-precompile@1.0.0",
+  "scripts": {},
+  "_shasum": "",
+  "_npmVersion": "1.4.14",
+  "_nodeVersion": "0.10.29",
+  "_npmUser": {},
+  "dist": {
+    "shasum": "",
+    "tarball": ""
+  },
+  "maintainers": [],
+  "directories": {},
+  "main": "index.js",
+  "devDependencies": {
+    "handlebars": "^4.0.5"
+  }
+}
