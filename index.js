@@ -54,7 +54,7 @@ module.exports = function(options) {
 
             includeSrc = path.join(options.baseSrc || "", includeSrc);
 
-            var name = includeSrc.split("\/")[includeSrc.split('\/').length - 1].split('.')[0];
+            var name = includeSrc.split("\/")[includeSrc.split('\/').length - 1].split('.')[0].replace(/\\/g,'/');
 
             var promise = fs.readFileAsync(includeSrc)
                 .then(function(data) {
